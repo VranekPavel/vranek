@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/me.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/screen.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Aplikace</title>
+  <script>
+			$(document).ready(function(){
+				$("#nav").load("nav.html", setActive);
+				$("#footer").load("footer.html");
+
+				function setActive(){
+					$('#app').addClass('navactive');
+				}
+			});
+
+	</script>
+ </head>
+ <body>
+ 	<div id='nav'></div>
+ 	<div class='container-fluid'>
+ 		<div class='row bckLightBlue paddingTop paddingBottom borderDown'>
+ 			<div class='col-md-10 '>
+ 				<H1 class='fontGrey fontFamily'>Vytvořené aplikace</H1>
+ 				<p class='fontSize20'>Na této stránce se nachází několik aplikací, za účelem prezentace mých dosavadních dovedností. Aplikace jsou vytvořeny jako školní projekty, či jako aplikace vytvořené ve volném čase za účelem zdokonalení se v dané technologii.</p>
+ 			</div>
+ 		</div>
+ 		<div class='row marginTop'>
+ 			<div class='col-md-4'>
+ 				<h2>CRUD aplikace</h2>
+ 				<p>Vytvořeno pro potřeby předmětu 4IZ268-Webové technologie</p>
+ 				<ul>
+ 					<li>Aplikace pro základní správu databáze</li>
+ 					<li>Záznamy lze updatovat kliknutim na danou hodnotu</li>
+ 					<li>Kontrola záznamů na klientské straně - Update</li>
+ 					<li>Vyuzite technologie Bootstrap, jQuery, PHP (MSQLi)</li>
+ 					<li>V záložce Connection Ping-Pong :)</li>
+ 				</ul>
+ 				<a href='aplikace/268' target='_blank'><button class='btn btn-success'>Aplikace</button></a>
+ 				<a href="https://github.com/VranekPavel/4IZ268" target="_blank"><button class='btn btn-primary'>GIT</button></a>
+ 			</div>
+ 			<div class='col-md-8 marginTop'>
+ 				<iframe src='aplikace/268' width='100%' height='300px'></iframe>
+ 			</div>
+ 		</div>
+ 		<div class='row'>
+ 			<div class='col-md-4'>
+ 				<h2>Školní informační systém</h2>
+ 				<p>Vytvořeno pro potřeby předmětu 4IZ278-Webové aplikace</p>
+ 				<h3>Využití aplikace</h3>
+ 				<p>Aplikace je určena pro školy, které v aplikaci vytvoří studentům školy uživatelské účty. Student si může vytvořit vlastní rozvrh a ke studovaným předmětům přidávat známky, procházet vyučované předměty, kontaktovat ostatní studenty pomocí e-mailu.
+ 				</p>
+ 				<ul>
+ 					<li>Administrátorské rozhraní</li>
+ 					<li>Kontrola záznamů na klientské i serverové straně</li>
+ 					<li>Stránkování, vyhledávání v seznamu</li>
+ 					<li>Vyuzite technologie Bootstrap, JS, jQuery, PHP (PDO), Cookies, Sessions</li>
+ 					<li>Ochrana proti útokům (pouze v některých formulářích) SQL Inject, XSS, CSRF</li>
+ 				</ul>
+ 				<h4>Přístup k aplikaci</h4>
+ 				<p>User:vrap <br> Heslo:pavel</p>
+ 				<a href='aplikace/278' target='_blank'><button class='btn btn-success'>Aplikace</button></a>
+ 				<a href="https://github.com/VranekPavel/4IZ278" target="_blank"><button class='btn btn-primary'>GIT</button> </a>
+ 			</div>
+ 			<div class='col-md-8 marginTop'>
+ 				<iframe src='aplikace/278' width='100%' height='500px' ></iframe>
+ 			</div>
+ 		</div>
+ 		<div class='row'>
+ 			<div class = 'col-md-4'>
+ 				<h2>Kalkulačka</h2>
+ 				<p>Jednoduchá kalkulačka napsaná pomocí JavaScriptu</p>
+ 				<p>RadioButton umožnuje počítat s výsledkem předchozího výpočtu, nebo pokračovat s modifikováním předchozího výpočtu</p>
+        <a href='aplikace/kalkulacka' target='_blank'><button class='btn btn-success'>Aplikace</button></a>
+        <a href="https://github.com/VranekPavel/Kalkulacka" target="_blank"><button class='btn btn-primary'>GIT</button></a>
+ 			</div>
+ 			<div class='col-md-8 marginTop'>
+ 				<iframe src="aplikace/kalkulacka/index.html" width='100%' height="200px"></iframe>
+ 			</div>
+ 		</div>
+    <div class='row'>
+      <div class = 'col-md-4'>
+        <h2>Had</h2>
+        <p>Hra had napsaná v JavaScriptu</p>
+        <a href='aplikace/had' target='_blank'><button class='btn btn-success'>Aplikace</button></a>
+        <a href="https://github.com/VranekPavel/Had" target="_blank"><button class='btn btn-primary'>GIT</button></a>
+      </div>
+      <div class='col-md-8 marginTop'>
+        <iframe src="aplikace/had/index.html" width='100%' height="470px"></iframe>
+      </div>
+    </div>
+ 	</div>
+ 	<div id='footer'></div>
+ </body>
+</html>

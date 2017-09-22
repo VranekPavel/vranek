@@ -1,0 +1,179 @@
+@media print {
+#mail {
+	display:none;
+}
+#download {
+	display: none;
+}
+}
+
+.bckDarkBlue {
+	background-color:#2f2f2f;
+}
+
+.bckLightBlue {
+	/*background-color:#cfe0e8;*/
+	background: rgba(217,217,217,0.1);
+}
+.bold {
+	font-weight: bold;
+}
+
+.border {
+	border-style:solid;
+	border-width: 2px;
+}
+.borderDown {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #e2e2e2;
+}
+
+.borderDownGreen{
+	border-bottom: solid;
+	border-width: 5px;
+	border-color: #1abc9c;
+}
+
+hr {
+	border-width: 2px;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.imgCenter{
+	display: block;
+    margin: auto;
+}
+.imgBorder {
+	border-color: #1abc9c;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.center {
+	margin: auto;
+}
+
+#download{
+	border:solid;
+	padding:5px;
+	border-width: 1px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 1;
+	background-color: white;
+}
+#download:hover {
+	color:red;
+	border-color: red;
+	border:solid;
+	padding:5px;
+	border-width: 1px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 1;
+}
+
+.padding20 {
+	padding: 20px 20px 20px 20px;
+}
+.padding10 {
+	padding: 10px 10px 10px 10px;
+}
+
+.padding0{
+	padding: 0px;
+}
+
+.paddingBottom {
+	padding-bottom: 40px;
+}
+
+.paddingTop{
+	padding-top: 20px;
+}
+
+.paddingBottom {
+	padding-bottom: : 40px;
+}
+
+.margin0 {
+	margin: 0px;
+}
+
+.marginTop {
+	margin-top: 20px;
+}
+
+.margin5{
+	margin:5px; 
+}
+
+.marginBottom {
+	margin-bottom: 20px;
+}
+
+.navactive{
+	/*background-color: white;*/
+	border-color:#1abc9c;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 4px;
+}
+
+.fontSize20{
+	font-size: 20px;
+}
+
+.fontSize140{
+	font-size: 140px;
+}
+
+.fontDarkBlue{
+	color: #2f2f2f
+}
+
+.fontGrey{
+	color:#595959;
+}
+
+.fontLightBlue {
+	color:#cfe0e8;
+}
+
+.fontLightGrey{
+	color: #d9d9d9;
+}
+.fontRed{
+	color:red;
+}
+
+.fontGreen {
+	color:#1abc9c;
+}
+.fontWhite{
+	color:white;
+}
+.fontFamily {
+	font-family:Georgia, Times New Roman, Times, serif;
+}
+
+a {
+	color:black;
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+}
+.hover:hover{
+	background-color: #d9d9d9;
+}
+
+.active {
+	background-color: white;
+}

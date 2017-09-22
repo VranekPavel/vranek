@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="cs" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/me.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+  <title>Bc. Pavel Vránek</title>
+    <script>
+            $(document).ready(function(){
+                $("#nav").load("nav.html", setActive);
+                $('#footer').load('footer.html');
+
+                function setActive(){
+                    $('#cv').addClass('navactive');
+                }
+            });
+        function color(){
+            document.getElementById('download').style.color='black';
+            document.getElementById('download').style.textDecoration='none';
+        }
+        function colorhover(){
+            document.getElementById('download').style.color='red';
+            document.getElementById('download').style.border='solid';
+            document.getElementById('download').style.borderWidth='1px';
+        }
+        function colorout (){
+            document.getElementById('download').style.color='black';
+            document.getElementById('download').style.border='solid';
+            document.getElementById('download').style.borderWidth='1px';
+        }
+    </script>
+ </head>
+ <body>
+<div id='nav'></div>
+<a id='download' href="download/PavelVranekCV.pdf" download onclick='color()' onmouseover='colorhover()' onmouseout='colorout()'>DOWNLOAD CV</a>
+<div class='container-fluid bckLightBlue marginBottom borderDown'>
+    <div class='col-md-10 col-md-offset-1 padding20 fontGrey '>
+    <div style='float: left'>
+            <h1 class='bold fontFamily'>Bc. Pavel Vránek</h1>
+            <h2 class='fontFamily'>Web developer</h2>
+        </div>
+    <img src='img/me.jpg' alt='Moje foto' class='img-circle img-responsive imgRight imgBorder' style='max-width: 150px; max-height: 150px; float: right;' >
+    </div>
+</div>
+<div class='container-fluid '>
+  <div class='col-md-8 col-md-offset-1'>
+    <div class='col-md-2'>
+        <p>Cíl</p>
+    </div>
+    <div class='col-md-10'>
+        <p>Své znalosti rozšiřuji v oblasti webových technologií. Orientuji se v PHP, JS, SQL, CSS, HTML. Baví mě zejména tvorba funkční části webu a webových aplikací.</p>
+        <hr>
+    </div>
+    <div class='col-md-2'>
+        <p>Vzdělání</p>
+    </div>
+    <div class='col-md-10'>
+        <h4>Vysoká škola ekonomická v Praze, obor Znalostní a webové technologie</h4>
+        <p>Magisterské studium, 1. ročník</p>
+        <h4>Vysoká škola ekonomická v Praze, obor Aplikovaná informatika</h4>
+        <p>Bakalářské studium zakončené titulem Bc.</p>
+        <h4>Obchodní akademie a vyšší odborná škola ekonomická, Tábor</h4>
+        <p>Středoškolské studium Ekonomického lycea zakončené maturitní zkouškou.</p>
+        <hr>
+    </div>
+    <div class='col-md-2'>
+        <p>Schopnosti</p>
+    </div>
+    <div class='col-md-10'>
+        <h4>HTML, CSS, JS, PHP</h4>
+        <p>Jsem schopen kompletní tvorby webových aplikací</p>
+        <h4>SQL</h4>
+        <p>Mám pokročilé znalosti jazyka SQL</p>
+        <h4>XML</h4>
+        <p>Umím vytvářet XML dokumenty, Schémata, XSLT, XSL-FO</p>
+        <h4>Oracle, Enterprise Manager</h4>
+        <p>Jsem schopen základní správy databáze Oracle</p>
+        <hr>
+    </div>
+    <div class='col-md-2'>
+        <p>Praxe</p>
+    </div>
+    <div class='col-md-10'>
+        <h4>Datový analytik, Provident</h4>
+        <p>Květen 2016 - Květen 2017</p>
+        <p>Tvorba datových sestav pomocí jazyka SQL a jejich následná uživatelsky přívětivá prezentace v reportech pomocí Reporting Services. Modifikace existujících reportů, podpora rozhodovací činnosti</p>
+        <p>Management Studio, Toad, SQL Server Integration Services, Reporting Services</p>
+        <h4>Správa E-Shopu, FitnessPohotovost</h4>
+        <p>Září 2015 - Leden 2016</p>
+        <p>Práce s Sklik, Google AdWords, Heureka. Komunikace s dodavateli</p>
+        <hr>
+    </div>
+    <div class='col-md-2'>
+        <p>Další informace</p>
+    </div>
+    <div class='col-md-10'>
+        <p>MBTI: ISTJ – Systematik konzervativní</p>
+        <p>Mluvená angličtina: mírně pokročilá</p>
+        <p>Psaní a porozumění v angličtěně: pokročilý</p>
+        <p>Analytické myšlení, zodpovědnost, komunikativnost</p>
+        <p>Sportuji, cestuji</p>
+    </div>
+  </div>
+</div>
+<div id='footer'></div>
+ </body>
+</html>
